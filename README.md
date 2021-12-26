@@ -7,7 +7,9 @@
 - Herhangi bir tarafta 20kgm fazlalık var ise oyun biter.
 - Kullanıcı oyunu durdurup kaldığı yerden oyuna devam edebilir.
 - Tahtervalli sarkma oranı ve hızı kolların aralarındaki ağırlık farkına göre artar veya azalır.
-- Kullanıcı **otomatik modu açarak**, müdahale etmeden oyunun kendi kendine oynamasını sağlayabilir.
-- Her rounddan sonra kutuların düşme hızı **10ms** kadar azalır.
-- Kutular **ağırlıklarına göre** boyutlandırılır.
 - Her roundda sağdaki ve soldaki kutuların ağırlıkları ve merkeze uzaklıkları değişir.
+
+## Bonuslar
+- Kullanıcı **otomatik modu açarak**, müdahale etmeden oyunun kendi kendine oynamasını sağlayabilir.
+- Kutular **ağırlıklarına göre** boyutlandırılır.
+- Her rounddan sonra kutuların düşme hızı **10ms** kadar azalır.
