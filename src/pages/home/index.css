@@ -1,0 +1,33 @@
+.controlButtons {
+  bottom: 20px;
+  position: absolute;
+  left: 20px;
+}
+
+.controlButton {
+  padding: 10px 25px;
+  background: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.infoArea {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: black;
+}
+
+.autoMode {
+  background-color: #ff6a00;
+}
+
+.stop {
+  color: black;
+  background: #f7d254;
+}

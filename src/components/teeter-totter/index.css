@@ -1,0 +1,30 @@
+.teeterWrapper {
+  display: flex;
+}
+
+.case {
+  display: flex;
+  align-items: flex-end;
+}
+
+.leftCase {
+  flex: 1;
+  justify-content: flex-end;
+}
+.rightCase {
+  flex: 1;
+}
+
+.teeterTotterBoard {
+  width: 1000px;
+  height: 30px;
+  background-color: black;
+}
+
+.balanceTeeter {
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 101px solid #df1d1d;
+  width: 0px;
+  margin-left: 440px;
+}

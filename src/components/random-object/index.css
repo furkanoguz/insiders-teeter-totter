@@ -1,0 +1,39 @@
+.box {
+  transition: 200ms;
+}
+.rectangle {
+  width: 70px;
+  height: 100px;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: deeppink;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 70px solid salmon;
+  width: 0px;
+}
+
+.triangle span {
+  position: absolute;
+  color: white;
+  margin-top: 41px;
+  margin-left: -14px;
+  transition: 500ms;
+  width: 40px;
+}
