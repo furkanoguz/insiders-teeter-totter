@@ -80,9 +80,9 @@ const HomePage: FC = () => {
   }, [topOffset, gameState]);
 
   useEffect(() => {
-    window.addEventListener("keydown", handleKeyPress, true);
+    window.addEventListener("keydown", handleKeyPress);
 
-    return () => window.removeEventListener("keydown", handleKeyPress, true);
+    return () => window.removeEventListener("keydown", handleKeyPress);
   }, []);
 
   const handleKeyPress = (event: KeyboardEvent) => {
