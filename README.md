@@ -1,4 +1,4 @@
-# Insider Teeter Totter
+# Teeter Totter
 
 ## Özellikler
 - İki tarafta eşit ise kullanıcı **100 puan** kazanır
